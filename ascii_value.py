@@ -7,3 +7,7 @@ print(ord(char1))
 print(ord(char2))
 print(ord(char3))
 print(ord(num1))
+
+num2 = 67
+
+print(chr(num2))
