@@ -11,3 +11,6 @@ print(type(phones))
 print(len(phones))
 
 print(phones["Masum"])
+
+print(phones.keys())
+print(phones.values())
