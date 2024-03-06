@@ -4,8 +4,10 @@ def sum_1_to_num(num):
         sum += i
     return sum
 
-num = int(input("Enter a number: "))
+num1 = int(input("Enter a number: "))
+result1 = sum_1_to_num(num1)
+print("The sum from 1 to", num1, "is:", result1)
 
-result = sum_1_to_num(num)
-
-print("The sum from 1 to", num, "is:", result)
+num2 = int(input("Enter a number: "))
+result2 = sum_1_to_num(num2)
+print("The sum from 1 to", num2, "is:", result2)
