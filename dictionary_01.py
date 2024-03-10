@@ -15,3 +15,14 @@ print(phones.get("Masum"))
 
 print(phones.keys())
 print(phones.values())
+
+# element in dictionary
+phones["Hossain"] = 2345
+print(phones)
+
+new_number = {
+    "Hossain" : 9876
+}
+
+phones.update(new_number)
+print(phones)
