@@ -10,7 +10,8 @@ print(type(phones))
 
 print(len(phones))
 
-print(phones["Masum"])
+print(phones["Masum"]) #same thing can be done with the below line
+print(phones.get("Masum"))
 
 print(phones.keys())
 print(phones.values())
