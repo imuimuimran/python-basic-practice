@@ -1,13 +1,11 @@
-str1 = "Welcome a"
+str1 = "Welcome"
 
 
 for i in str1:
     print(i)
     
-count = 0
-for i in str1:
-    if i == 'e' or i == 'o' or i == 'a':
-        count += 1
-print(count)
+str2 = "Hello!"
 
-print(len(str1))
+list = [char for char in str2]
+for i in list:
+    print(i)
